@@ -1,0 +1,55 @@
+@media screen
+{
+* {font-size : 12pt  ; font-family : arial ;border : 0px ; padding : 0px ; font-weight : normal ; text-decoration : none ,}
+body {width : 1200px; margin-left : auto ; margin-right : auto ; background :  #3B5998; height : auto ;}
+
+
+header{width:100% ; height :auto ;}
+#header { padding : auto ; vertical-align : middle ; margin-top : 50px}
+#header li { display: inline;  list-style: none; /* nécessaire pour IE7 */  } 
+header a{display : inline ;text-align : left ;text-decoration: none }
+
+nav{width:100% ; height :50px ; border: 1px solid black  ; background :#F2F2F2 }
+#nav { padding: auto ;vertical-align : middle ; }  
+#nav li { display: inline;  list-style: none; /* nécessaire pour IE7 */  } 
+nav a{display : inline ; margin-right : 20px ; margin-left : 20px ; text-align : left
+;text-decoration: none ; margin-top : 20px ; color : #66667B}
+nav a:hover{text-decoration:underline}
+
+h1{display : block; text-align : left ; margin-left : 50px ; font-size: 30px ; color : #6D84B4;}
+h2{display: block; text-align : left ; margin-left:50px; font-size:20px; color : #8094C1}
+a{text-decoration:none; color :#8094C1}
+a:hover{text-decoration : underline;}
+#index{height : 540px;}	
+p{display : block ; width: 800px; height : auto; text-align : left ; padding : 20px ;
+overflow : auto }
+article div{display : inline-block ;margin-left: 50px ; margin-right: 50px; font-size : 13px;}
+article a{text-decoration:none; color :#8094C1; font-size : 13px}
+article a:hover{text-decoration:underline}
+article{width: 100% ; height : auto ; background : white ; border-right: 1px solid black ; border-left: 1px solid black ; border-bottom: 1px solid black ;}
+img {display : inline-block  ; margin-right : 30px ;	 text-align : left ; margin-top : auto}
+
+footer a{text-decoration: none; color : white;}
+footer a:hover{text-decoration:underline;}
+footer{width: 100% ; margin-top : 15px ; margin-bottom : 15px ; height : auto ; float:left  ; color : white }
+footer div { display : inline-block ; width : 31% ; text-align : left ; border-right : 1px solid white 	; padding:10px}
+#footer{border-left:1px solid white ; margin-left : 5px}
+
+textarea{display : block ; border : 1px solid grey ; margin-top : 10 px ; margin-left : 50px ;}
+label,input,select{display : inline-block; height : 25px ; margin-top : 10px ; margin-left : 50px ; color : grey ;}
+label, input[type='text'],input[type='email'],input[type='date'],select,button{width:240px;}
+label, span, input {text-align: left ;}
+button{display:inline-block ;margin-top:15px}
+input, select{display : block ; border:1px solid grey ; margin-bottom : 10px ; margin-left : 50px} 
+input[type='radio'], span {height=10%}
+intput:required{background : pink ;}
+
+
+
+
+iframe{display : inline; padding:0px ; border:0px}
+
+
+ 
+}
+
